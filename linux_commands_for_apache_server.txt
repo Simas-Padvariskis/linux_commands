@@ -1,0 +1,441 @@
+    1  poweroff
+    2  sudo ./autorun.sh 
+    3  sudo reboot
+    4  sudo passwd root
+    5  sudo dpkg-reconfigure unattended-upgrades 
+    6  sudo poweroff
+    7  history > 5pr.darbas.txt
+    8  poweroff
+    9  ls
+   10  cd ..
+   11  ls
+   12  ls --help
+   13  ls -l
+   14  mkdir --help
+   15  mkdir Bandymas
+   16  cd ~
+   17  ls
+   18  touch --help
+   19  ls
+   20  touch ~/Bandymas/f1.txt
+   21  ls ~/Bandymas/
+   22  cd Bandymas/
+   23  ls
+   24  touch f{2..4}.txt ff{1..4}.txt
+   25  ls
+   26  ls -l
+   27  mkdir ~/Tikslas
+   28  ls
+   29  cp --help
+   30  ls
+   31  cp {f1.txt,f3.txt,ff2.txt,ff4.txt} ~/Tikslas/
+   32  ls ~/Tikslas/
+   33  rename --help
+   34  sudo apt intall rename
+   35  sudo apt install rename
+   36  rename --help
+   37  cd ~/Tikslas/
+   38  rename -v 's/f*/file/' *.txt
+   39  ls
+   40  mv file{1..4}.txt ~/Bandymas/
+   41  ls ~/Bandymas/
+   42  ls
+   43  ls -l
+   44  cd ~/Desktop/
+   45  history > 7pr.darbas.Idalis.txt
+   46  sudo poweroff
+   47  cp /etc/passwd ~/Bandymas/
+   48  cd ~/Bandymas/
+   49  ls -l
+   50  cat passwd
+   51  grep --help
+   52  grep -r "root"
+   53  grep -r "root" passwd
+   54  wc --help
+   55  wc -c passwd
+   56  wc -m passwd
+   57  head --help
+   58  tail --help
+   59  head -n 5  passwd
+   60  tail -5 passwd
+   61  tail -n 5 passwd
+   62  tail -1 passwd
+   63  ln --help
+   64  cd ~/Tikslas/
+   65  ln -s ~/Bandymas/passwd MANOLINKAS
+   66  ln -L ~/Bandymas/passwd MANOLINKAS
+   67  ln -L ~/Bandymas/passwd manolinkas
+   68  ls -l
+   69  cd ~
+   70  ls -l
+   71  rm --help
+   72  cd ~/Bandymas/
+   73  ls
+   74  rm passwd
+   75  ls
+   76  cd ~/Tikslas/
+   77  ls
+   78  cd ~
+   79  rm -d  /Bandymas/
+   80  rm -r ~/Bandymas/
+   81  rm -r ~/Tikslas/
+   82  ls
+   83  ~/Dekstop/
+   84  cd ~/Dekstop/
+   85  cd ~/Desktop/
+   86  history > 7pr.darbas.IIdalis.txt
+   87  cd  Scripting
+   88  cd ~
+   89  mkdir Scripting
+   90  ls
+   91  cd ~/Scripting/
+   92  ls
+   93  nano first.sh
+   94  cat first.sh
+   95  ls -l
+   96  ./first.sh
+   97  sudo chmod 777 first.sh
+   98  ls -l
+   99  mkdir TEST
+  100  ls -l
+  101  sudo chmod 444 TEST/
+  102  sudo chmod 111  TEST/
+  103  cd TEST/
+  104  cd ..
+  105  sudo chmod 777 TEST
+  106  ls -l
+  107  rm -r TEST/
+  108  ls -l
+  109  ./first.sh 
+  110  cat first.sh 
+  111  echo Hello once again
+  112  nano first.sh
+  113  ./first.sh 
+  114  nano first.sh
+  115  ./first.sh 
+  116  nano first.sh
+  117  ./first.sh 
+  118  nano first.sh
+  119  ./first.sh 
+  120  nano first.sh
+  121  ./first.sh 
+  122  ls -l
+  123  nano first.sh
+  124  ./first.sh 
+  125  ls -l
+  126  nano first.sh
+  127  ./first.sh 
+  128  ls-l
+  129  ls -l
+  130  nano first.sh
+  131  ./first.sh 
+  132  nano first.sh
+  133  ./first.sh 
+  134  ls -l
+  135  poweroff
+  136  ./first.sh
+  137  cd ~Scripting
+  138  cd Scripting
+  139  cd ~
+  140  cd Scripting
+  141  nano first.sh
+  142  ./first.sh
+  143  ls
+  144  nano first.sh
+  145  ./first.sh
+  146  nano first.sh
+  147  ./first.sh
+  148  nano first.sh
+  149  ./first.sh
+  150  nano first.sh
+  151  ./first.sh
+  152  nano first.sh
+  153  ./first.sh
+  154  nano first.sh
+  155  ./first.sh
+  156  nano first.sh
+  157  ./first.sh
+  158  nano first.sh
+  159  ./first.sh
+  160  nano first.sh
+  161  ./first.sh
+  162  nano first.sh
+  163  ./first.sh
+  164  nano first.sh
+  165  ./first.sh
+  166  nano first.sh
+  167  ./first.sh
+  168  nano first.sh
+  169  ./first.sh
+  170  nano first.sh
+  171  ./first.sh
+  172  nano first.sh
+  173  ./first.sh
+  174  nano first.sh
+  175  ./first.sh
+  176  ls
+  177  cd ~
+  178  cs Scripting
+  179  cd SCripting
+  180  cd Scripting
+  181  ./first.sh
+  182  ls
+  183  nano first.sh
+  184  wc -help
+  185  nano first.sh
+  186  ./first.sh
+  187  poweroff
+  188  cd ~
+  189  cd Scripting
+  190  ./first.sh
+  191  ls
+  192  nano first.sh
+  193  ./first.sh
+  194  nano first.sh
+  195  ./first.sh
+  196  nano first.sh
+  197  ./first.sh
+  198  nano first.sh
+  199  ./first.sh
+  200  nano first.sh
+  201  ./first.sh
+  202  nano first.sh
+  203  ./first.sh
+  204  ls
+  205  nano first.sh
+  206  ./first.sh
+  207  nano first.sh
+  208  ./first.sh
+  209  nano first.sh
+  210  ./first.sh
+  211  nano first.sh
+  212  ./first.sh
+  213  nano first.sh
+  214  ./first.sh
+  215  nano first.sh
+  216  ./first.sh
+  217  ls
+  218  nano first.sh
+  219  ./first.sh
+  220  nano first.sh
+  221  rm --help
+  222  nano first.sh
+  223  ./first.sh
+  224  cd ~/Scripting/
+  225  nano first.sh
+  226  cd etc/
+  227  cd etc
+  228  cd ~
+  229  cd etc/
+  230  cd etc
+  231  cd ~
+  232  cd Scripting
+  233  nano first.sh
+  234  ./first.sh
+  235  ls
+  236  ./first.sh
+  237  ls /Padvariskis/
+  238  ls /Padvariskis
+  239  ls
+  240  cd Padvariskis
+  241  ls
+  242  cd -
+  243  cd ~/SCripting/
+  244  cd ~/SCripting
+  245  cd ~/Scripting/
+  246  ./first.sh
+  247  ls
+  248  cd padvariskis
+  249  ls
+  250  cd -
+  251  rm -r padvariskis
+  252  ls
+  253  poweroff
+  254  cd ~
+  255  cd Scripting
+  256  nano first.sh
+  257  ./first.sh
+  258  ls
+  259  cd Padvariskis
+  260  ls
+  261  cd -
+  262  cd ~
+  263  cd Scripting
+  264  ls
+  265  nano pavarde.sh
+  266  ./pavarde.sh
+  267  ls
+  268  cd Padvariskis
+  269  ls
+  270  cd -
+  271  cd ~
+  272  cd Scripting
+  273  ls
+  274  rm -r Padvariskis
+  275  ls
+  276  ./pavarde.sh
+  277  ls
+  278  cd Padvariskis
+  279  ls
+  280  cat passwd
+  281  cd -
+  282  ./pavarde.sh
+  283  cd Smith
+  284  ls
+  285  cat Smith
+  286  cat passwd
+  287  nano pavarde.sh
+  288  cd -
+  289  nano pavarde.sh
+  290  poweroff
+  291  ls -l
+  292  exit
+  293  ls -l
+  294  exit
+  295  sudo apt update
+  296  sudo apt install openssh-server -y
+  297  sudo ufw allow ssh
+  298  sudo systemctl ssh --no-pager
+  299  sudo systemctl status ssh --no-pager
+  300  sudo service ssh start
+  301  sudo service ssh enable
+  302  sudo systemctl enable ssh
+  303  sudo systemctl status ssh --no-pager
+  304  ip a
+  305  ifconfig
+  306  sudo apt install net-tools
+  307  ifconfig
+  308  sudo systemctl status ssh --no-pager
+  309  sudo nano /etc/ssh/sshd_config
+  310  sudo nano /lib/systemd/system/ssh.socket
+  311  sudo systemctl daemon-reload
+  312  sudo systemctl restart ssh
+  313  sudo systemctl status ssh --no-pager
+  314  ip a
+  315  cd /home
+  316  ls -l
+  317  useradd --help
+  318  sudo useradd -m -d /home/madagaskaras -G users,lp,video,audio,cdrom pingvinas
+  319  id pingvinas
+  320  ls -l
+  321  sudo passwd pingvinas
+  322  id pingvinas
+  323  id simas
+  324  usermod --help
+  325  sudo usermod -a -G sudo pingvinas
+  326  id pingvinas
+  327  sudo groupadd aliaska
+  328  sudo usermod -a -G aliaska pingvinas
+  329  id pingvinas
+  330  su pingvinas
+  331  sudo chsh -s /bin/bash pingvinas
+  332  sudo reboot
+  333  userdel --help
+  334  sudo -rfRZ pingvinas
+  335  sudo userdel -rfRZ pingvinas
+  336  id pingvinas
+  337  cd /home/
+  338  ls
+  339  ls -l
+  340  cd ~/Desktop/
+  341  history > 9ir10.pr.darbai.txt
+  342  ls -l
+  343  poweroff
+  344  su pingvinas
+  345  poweroff
+  346  systemctl status | grep "firefox"
+  347  pgrep firefox
+  348  kill 3917
+  349  firefox
+  350  exit
+  351  firefox
+  352  xcowsay HELLO WORLD
+  353  figlet HELLO WORLD
+  354  exit
+  355  top --help
+  356  ps
+  357  ps --help
+  358  ps aux
+  359  ps -u root u
+  360  ps -u root
+  361  ps -u root u > root.procesai.txt
+  362  ls
+  363  ps aux > all.procesai.txt
+  364  ls
+  365  ps tree
+  366  pstree
+  367  pstree > tree.txt
+  368  firefox
+  369  pgrep firefox
+  370  systemctl status | grep "firefox"
+  371  kill 4669
+  372  systemctl status ssh --no-pager
+  373  ip a
+  374  sudo apt search xcowsay
+  375  sudo apt update
+  376  sudo apt install xcowsay -y
+  377  apt search xcowsay
+  378  xcowsay  --help
+  379  xcowsay HELLO WORLDxcowsay  --help!
+  380  xcowsay HELLO WORLD
+  381  apt search figlet
+  382  sudo apt install figlet -y
+  383  apt search figlet
+  384  figlet --help
+  385  figlet HELLO WORLD
+  386  sudo apt install -git 
+  387  sudo apt install git -y
+  388  git clone https://github.com/StartBootstrap/startbootstrap-resume.git
+  389  cd startbootstrap-resume/
+  390  ls
+  391  cd dist/
+  392  ls
+  393  nano index.html
+  394  cd dist/
+  395  nano index.html
+  396  history > 11ir12pr.darbai.txt
+  397  poweroff
+  398  cd startbootstrap-resume/
+  399  cd dist/
+  400  nano index.html
+  401  poweroff
+  402  cd dist/
+  403  cd startbootstrap-resume/
+  404  cd dist/
+  405  ls
+  406  nano index.html
+  407  poweroff
+  408  cd startbootstrap-resume/
+  409  cd dist/
+  410  nano index.html
+  411  cd ~
+  412  sudo apt update
+  413  sudo apt install apache2 -y
+  414  sudo ufw app list
+  415  sudo ufw allow "Apache Full"
+  416  sudo systemctl status apache2 --no-pager
+  417  cd startbootstrap-resume/
+  418  cd dist/
+  419  ls
+  420  cd ..
+  421  sudo chmod -R 777 dist/
+  422  ls
+  423  sudo mv dist/ web/
+  424  cd startbootstrap-resume/
+  425  ls
+  426  sudo cp -r web/ /var/www/html/
+  427  cd /var/www/html/web/
+  428  ls
+  429  nano index.html
+  430  cd ..
+  431  sudo chmod -R 777 web/
+  432  ls -l
+  433  cd web/
+  434  ls -l
+  435  nano index.html
+  436  ip a
+  437  ifconfig
+  438  nano index.html
+  439  history > 13pr.darbas.txt
+  440  poweroff
+  441  history > allcmd.txt
