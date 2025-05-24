@@ -439,3 +439,6 @@
   439  history > 13pr.darbas.txt
   440  poweroff
   441  history > allcmd.txt
+
+
+----- First insert adiotional cd image, /home, VBox_GAS, open terimanl on autorun.sh and type sudo ./autorun.sh
