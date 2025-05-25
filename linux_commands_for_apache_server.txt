@@ -452,4 +452,6 @@
 ---- Klonavimas: sudo poweroff, VM clone: Full clone; Generate new MAC address; Then go to VM02 settings, storage and empty the VBoxAdditions.iso - it should be empty
 
 ---- Apache serverio diegimas: sudo apt update; sudo apt install apache2 -y; Patikrinti firewall: sudo ufw app list; Užtenka atrakinti "Apache Full": sudo ufw allow 'Apache Full'; Patikrinti Apache status: sudo systemctl status apache2 --no-pager
----- Puslapio paleidimas: Visual Studio terminal: npm install; npm run build; Linux terminal: cd moviefrontend/; sudo chmod -R 777 build/  ;  sudo cp -r build/ /var/www/html
+---- Puslapio paleidimas: Visual Studio terminal: npm install; npm run build; Nukopijuoti frontend folderi i VM; Linux terminal: cd moviefrontend/; sudo chmod -R 777 build/  ;  sudo cp -r build/* /var/www/html/; cd /var/www/html/build/; ip a (arba ifconfig); enp0s3: inet: your ip address that you should write in the browser to access the page
+
+Notes!!! - Always run 'npm run build' when changing your react application and then copy the new: sudo cp -r build/* /var/www/html/
