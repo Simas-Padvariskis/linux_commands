@@ -1,3 +1,20 @@
+----- Creating a VM: Linux/Ubuntu/Xubuntu64bit;  2560MB base memory, 2 processors, Hard Disk: 20GB VDI, DONE; General Description: Clean VM Xubuntu (version); General Advanced everything Bidirectional; Display - Video Memory Max; Storage - VboxGuestAdditional - Choose a disk file - ISO; Audio - disable; Network - Attached to - Bridged adapter; Network - Promiscuous mode - Allow all;
+
+---- On install setup menu - install recommended proprietary software - download and install support for additional media formats; Computers name - pavarde, Username - vardas; Your name - Vardas;
+
+----- First insert adiotional cd image, /home, VBox_GAS, open terimanl here and type sudo ./autorun.sh
+
+---- root vartotojo kūrimas: terminal on dekstop: sudo passwd root (prasys slaptazodzio (studentas)), new password: studentas
+---- automatinių atnaujinimų išjungimas: sudo dpkg-reconfigure unattented-upgrades; Pasirinkti <No>
+---- Konfiguracija pilnai atlikta (galima klonuoti VM)
+---- Klonavimas: sudo poweroff, VM clone: Full clone; Generate new MAC address; Then go to VM02 settings, storage and empty the VBoxAdditions.iso - it should be empty
+
+---- Apache serverio diegimas: sudo apt update; sudo apt install apache2 -y; Patikrinti firewall: sudo ufw app list; Užtenka atrakinti "Apache Full": sudo ufw allow 'Apache Full'; Patikrinti Apache status: sudo systemctl status apache2 --no-pager
+---- Puslapio paleidimas: Visual Studio terminal: npm install; npm run build; Nukopijuoti frontend folderi i VM; Linux terminal: cd moviefrontend/; sudo chmod -R 777 build/  ;  sudo cp -r build/* /var/www/html/; cd /var/www/html/build/; ip a (arba ifconfig); enp0s3: inet: your ip address that you should write in the browser to access the page
+
+Notes!!! - Always run 'npm run build' when changing your react application and then copy the new: sudo cp -r build/* /var/www/html/
+
+
     1  poweroff
     2  sudo ./autorun.sh 
     3  sudo reboot
@@ -439,19 +456,3 @@
   439  history > 13pr.darbas.txt
   440  poweroff
   441  history > allcmd.txt
-
------ Creating a VM: Linux/Ubuntu/Xubuntu64bit;  2560MB base memory, 2 processors, Hard Disk: 20GB VDI, DONE; General Description: Clean VM Xubuntu (version); General Advanced everything Bidirectional; Display - Video Memory Max; Storage - VboxGuestAdditional - Choose a disk file - ISO; Audio - disable; Network - Attached to - Bridged adapter; Network - Promiscuous mode - Allow all;
-
----- On install setup menu - install recommended proprietary software - download and install support for additional media formats; Computers name - pavarde, Username - vardas; Your name - Vardas;
-
------ First insert adiotional cd image, /home, VBox_GAS, open terimanl here and type sudo ./autorun.sh
-
----- root vartotojo kūrimas: terminal on dekstop: sudo passwd root (prasys slaptazodzio (studentas)), new password: studentas
----- automatinių atnaujinimų išjungimas: sudo dpkg-reconfigure unattented-upgrades; Pasirinkti <No>
----- Konfiguracija pilnai atlikta (galima klonuoti VM)
----- Klonavimas: sudo poweroff, VM clone: Full clone; Generate new MAC address; Then go to VM02 settings, storage and empty the VBoxAdditions.iso - it should be empty
-
----- Apache serverio diegimas: sudo apt update; sudo apt install apache2 -y; Patikrinti firewall: sudo ufw app list; Užtenka atrakinti "Apache Full": sudo ufw allow 'Apache Full'; Patikrinti Apache status: sudo systemctl status apache2 --no-pager
----- Puslapio paleidimas: Visual Studio terminal: npm install; npm run build; Nukopijuoti frontend folderi i VM; Linux terminal: cd moviefrontend/; sudo chmod -R 777 build/  ;  sudo cp -r build/* /var/www/html/; cd /var/www/html/build/; ip a (arba ifconfig); enp0s3: inet: your ip address that you should write in the browser to access the page
-
-Notes!!! - Always run 'npm run build' when changing your react application and then copy the new: sudo cp -r build/* /var/www/html/
