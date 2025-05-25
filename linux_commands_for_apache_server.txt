@@ -445,3 +445,7 @@
 ---- On install setup menu - install recommended proprietary software - download and install support for additional media formats; Computers name - pavarde, Username - vardas; Your name - Vardas;
 
 ----- First insert adiotional cd image, /home, VBox_GAS, open terimanl here and type sudo ./autorun.sh
+
+---- root vartotojo kūrimas: terminal on dekstop: sudo passwd root (prasys slaptazodzio (studentas)), new password: studentas
+---- automatinių atnaujinimų išjungimas: sudo dpkg-reconfigure unattented-upgrades; Pasirinkti <No>
+---- Konfiguracija pilnai atlikta (galima klonuoti VM)
