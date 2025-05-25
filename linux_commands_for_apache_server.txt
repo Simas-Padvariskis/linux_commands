@@ -449,4 +449,4 @@
 ---- root vartotojo kūrimas: terminal on dekstop: sudo passwd root (prasys slaptazodzio (studentas)), new password: studentas
 ---- automatinių atnaujinimų išjungimas: sudo dpkg-reconfigure unattented-upgrades; Pasirinkti <No>
 ---- Konfiguracija pilnai atlikta (galima klonuoti VM)
----- Klonavimas: sudo poweroff, VM clone: Full clone; Generate new MAC address
+---- Klonavimas: sudo poweroff, VM clone: Full clone; Generate new MAC address; Then go to VM02 settings, storage and empty the VBoxAdditions.iso - it should be empty
