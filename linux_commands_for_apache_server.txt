@@ -16,6 +16,7 @@ Notes!!! - Always run 'npm run build' when changing your react application and t
 
 React NOTES: Create React App: open visual studio terminal; cd pathOfYourApplicationFolder; npx create-react-app somethingfrontend; Open created folder; npm start; Install bootstrap: npm install react-bootstrap bootstrap; Install SASS: npm install sass
 
+(git add README.md)
 
     1  poweroff
     2  sudo ./autorun.sh 
