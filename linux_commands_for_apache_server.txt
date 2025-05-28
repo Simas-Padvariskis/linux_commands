@@ -19,6 +19,8 @@
     React NOTES: Create React App: open visual studio terminal; cd pathOfYourApplicationFolder; npx create-react-app somethingfrontend; Open created folder; npm start; Install bootstrap: npm install react-bootstrap bootstrap; Install SASS: npm install sass
 
     Spring Initializr NOTES: Dependencies: Spring WEB; Spring Boot DevTools; Spring Data JPA; MySQL Driver.
+
+    powershell: node --version (check if node is installed) before creating react app
 <<<<<--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 (touch README.md)
