@@ -13,6 +13,8 @@
 ---- Puslapio paleidimas: Visual Studio terminal: npm install; npm run build (sukuria build/ folderi frontende); Nukopijuoti frontend folderi i VM; Linux terminal: cd moviefrontend/; sudo chmod -R 777 build/  ;  sudo cp -r build/* /var/www/html/; cd /var/www/html/build/; ip a (arba ifconfig); enp0s3: inet: your ip address that you should write in the browser to access the page
 <<<<<--------------------------------------------------------------------------------------------------------------------------------------------------------------
     Notes!!! - Always run 'npm run build' when changing your react application and then copy the new: sudo cp -r build/* /var/www/html/
+       To remove current Apache's files: sudo rm -rf /var/www/html/*
+       Then delete current page folder, import the new one and then: sudo cp -r build/* /var/www/html/
     
     React NOTES: Create React App: open visual studio terminal; cd pathOfYourApplicationFolder; npx create-react-app somethingfrontend; Open created folder; npm start; Install bootstrap: npm install react-bootstrap bootstrap; Install SASS: npm install sass
 
